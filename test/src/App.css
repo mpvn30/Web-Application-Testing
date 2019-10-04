@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: #191919;
+}
+.dashboard{
+  background-color: #0D3D0D;
+  width: 800px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+h1{
+  font-size: 3rem;
+  padding: 20px 0;
+}
+h2{
+  font-size: 2rem;
+}
+.score{
+  display: flex;
+  width: 600px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+button{
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 50px;
+  font-size: 1.2rem;
+
+}
+.buttons, .buttons2{
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+.buttons{
+  padding: 30px;
+}
+.buttons2{
+  padding-bottom: 50px;
+}
+.stats{
+  display: flex;
+}
+.button{
+  width: 200px;
+}
